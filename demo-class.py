@@ -13,7 +13,11 @@ class A:
         tot = self.a + self.b + self.c
         return int(tot)
     
+    def check(self) -> None:
+        print("To check the new commited files")
+    
 # obj1 = A()
 obj2 = A(1,2,3)
 
 print(obj2.total())
+print(obj2.check())
